@@ -1,0 +1,4 @@
+.history/
+.vscode/
+config/config.env
+node_modules/

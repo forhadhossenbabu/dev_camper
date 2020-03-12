@@ -1,0 +1,28 @@
+{
+  "name": "dev-camper",
+  "version": "1.0.0",
+  "description": "Devcamper Backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "NODE_ENV=production node server",
+    "development": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/findforhad/dev_camper.git"
+  },
+  "author": "Forhad Chowdhury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/findforhad/dev_camper/issues"
+  },
+  "homepage": "https://github.com/findforhad/dev_camper#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
