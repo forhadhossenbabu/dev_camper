@@ -10,6 +10,8 @@ app.use(require("express").json());
 // Mount Router with the Route Files
 app.use("/api/v1/bootcamps", require("./routes/bootcamps"));
 
+app.use(require("./middlewares/error"));
+
 const server = app.listen(process.env.PORT || 1010, () =>
   console.log(
     `Server Started in ${process.env.NODE_ENV} Mode on Port ${process.env.PORT}`
